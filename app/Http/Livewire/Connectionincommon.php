@@ -25,7 +25,7 @@ class Connectionincommon extends Component
     }
     public function render()
     {
-        $this->usersconnections = auth()->user()->connectionsids->pluck('connection_id')->toArray();
+        
         return view('livewire.connectionincommon');
     }
 }

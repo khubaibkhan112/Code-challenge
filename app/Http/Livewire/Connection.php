@@ -12,6 +12,7 @@ class Connection extends Component
     protected $listeners = [
         'load-more' => 'loadMore'
     ];
+
     public function loadMore()
     {
         $this->limitPerPage = $this->limitPerPage + 10;
