@@ -1,5 +1,5 @@
 <div>
-{{dd($idsarray)}}
+
 @forelse ($suggestions as $suggestion )
 <div class="my-2 shadow  text-white bg-dark p-1" id="">
   <div class="d-flex justify-content-between">
